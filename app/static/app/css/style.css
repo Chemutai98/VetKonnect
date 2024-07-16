@@ -1,0 +1,42 @@
+.custom-navbar {
+    background-color: blue; 
+    font-size: small;
+}
+.goodnessseccont img{
+    width:100%;
+}
+.cake{
+    background-image: -ms-linear-gradient(#fff7ef, #fff);
+    background-image: -o-linear-gradient(#fff7ef);
+    padding:50px 40px;
+    
+    padding-bottom:20px;
+}
+.smbg{
+    background-color: #fff;
+    background-image: linear-gradient(rgba(110, 69,143,0.1, #fff));
+    background-image: -webkit-linear-gradient(rgba(110,69,143,0.1, #fff));
+    background-image: -moz-linear-gradient(rgba(110,69,143,0.1, #fff));
+    background-image: -ms-linear-gradient(rgba(110,69,143,0.1, #fff));
+    background-image: -o-linear-gradient(rgba(110,69,143,0.1, #fff));
+}
+.pro{
+    background-color: #fff;
+    background-image: linear-gradient(rgba(110, 69,143,0.1, #fff));
+    background-image: -webkit-linear-gradient(rgba(110,69,143,0.1, #fff));
+    background-image: -moz-linear-gradient(rgba(110,69,143,0.1, #fff));
+    background-image: -ms-linear-gradient(rgba(110,69,143,0.1, #fff));
+    background-image: -o-linear-gradient(rgba(110,69,143,0.1, #fff)); 
+}
+
+a {
+    text-decoration: none;
+}
+
+.goodnesssec a {
+    text-decoration: none;
+}
+.goodnesssec a:hover, .goodnesssec a:focus, .goodnesssec a:active {
+    text-decoration: none;
+    color: #333; 
+}
