@@ -40,3 +40,30 @@ a {
     text-decoration: none;
     color: #333; 
 }
+
+.bg-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 700px;
+    background-image: url("{% static 'app/images/product/cover.jpg' %}");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust the padding as needed */
+    border-radius: 10px; /* Optional: to add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: to add a slight shadow */
+}
+
+.form-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+    padding: 30px;
+    border-radius: 10px; /* Optional: to add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: to add a slight shadow */
+}
+
